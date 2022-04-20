@@ -9,5 +9,5 @@ class Register(Base):
     name=Column(String(255),nullable=False)
     phone=Column(String(255),nullable=False,unique=True)
  
-    def __repr__(self):
-        return f"<user_register name={self.name} phone={self.phone}>"              
+    #def __repr__(self):
+        #return f"<user_register name={self.name} phone={self.phone}>"              
